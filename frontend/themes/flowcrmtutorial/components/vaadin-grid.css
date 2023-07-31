@@ -1,0 +1,4 @@
+.center-cell-content[part~="cell"] ::slotted(vaadin-grid-cell-content) {
+    display: flex;
+    justify-content: center;
+}

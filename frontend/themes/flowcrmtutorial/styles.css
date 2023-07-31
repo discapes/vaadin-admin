@@ -1,0 +1,24 @@
+input {
+    /* https://github.com/vaadin/web-components/issues/4183 */
+    -webkit-mask-image: none !important;
+}
+
+@media all and (max-width: 1100px) {
+    .list-view.editing .toolbar,
+    .list-view.editing .contact-grid {
+        display: none;
+    }
+}
+
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.gap_0 {
+    gap: 0px;
+}
